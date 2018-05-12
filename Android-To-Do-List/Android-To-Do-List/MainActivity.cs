@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Android_To_Do_List
 {
-    [Activity(Label = "Android_To_Do_List", MainLauncher = true)]
+    [Activity(Label = "Android_To_Do_List", MainLauncher = true), WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
